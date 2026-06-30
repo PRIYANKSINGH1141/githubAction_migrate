@@ -47,7 +47,7 @@ jobs:
 
       - run: echo "Reading artifact from build stage"
 
-      - run: cat build/build.txt
+      - run: cat build.txt
 
       - run: echo "Tests Passed" > test.txt
 
@@ -75,4 +75,4 @@ jobs:
 
       - run: echo "Deploying application"
 
-      - run: cat test/test.txt
+      - run: cat test.txt
